@@ -1,13 +1,8 @@
-C++ Positional Tracking Code
+Python Positional Tracking Code
 Created by: Julian Maynes 
 Email: jmaynes@usc.edu, julianmaynes16@gmail.com
 
-This program requires the use of the Intel Realsense T265 camera, which,leveraging 
-its combined camera and imu,allows for precise positional data to be aquired.
+This program requires the use of the Intel Realsense T265 camera which,leveraging 
+its combined camera and imu, allows for precise positional data to be acquired.
 
-To modify contents, CMake is required. For more information on how to use CMake,
-please visit the CMake website for instructional tutorials. Feel free to reach
-out to me if you have any questions. 
-
-For the Intel Realsense software, please download version v. 2.24, which can be found with this link:
-https://github.com/IntelRealSense/librealsense/releases/tag/v2.24.0
+This program requires Python 3.7 or below as pyrealsense2, which is a necessary dependency and can be installed with ```pip install pyrealsense2```, is only compatible with those versions. 
